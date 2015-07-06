@@ -69,6 +69,7 @@
     <Content Include="LogOut.aspx" />
     <Content Include="LogSettings\Variables.xml" />
     <Content Include="NewPage.aspx" />
+    <Content Include="PriceWidget.js" />
     <Content Include="SendMail.aspx" />
     <Content Include="tinymce\changelog.txt" />
     <Content Include="tinymce\js\tinymce\license.txt" />
