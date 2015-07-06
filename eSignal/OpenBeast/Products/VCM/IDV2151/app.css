@@ -1,0 +1,51 @@
+.IDV2151 
+{  margin: 0;
+padding: 5px; 
+ text-align: center; 
+  background-color: white; 
+  width: 300px;
+ }
+ .IDV2151 tbody td { 
+ text-align: center !important; 
+  height: 25px !important;
+ vertical-align: middle;
+ } 
+ .IDV2151 .last {
+ } 
+ .IDV2151 .last-change {
+ font-size: 80%;
+ }
+ .IDV2151.positive {
+ color: green;
+ }
+ .IDV2151.negative {
+  color: red;
+ }
+ .IDV2151 .input-append {
+ padding-bottom: 7px;
+ padding-top: 7px;
+  }
+ .IDV2151 p.hi {
+ font-weight: bold;
+  font-size: 20px;
+  }
+ .IDV2151 .MainHeader 
+  { 
+  background-color: #4E78A0;
+  } 
+ .IDV2151 .header_fcolor {
+ color: white;
+ font-weight: bold;
+ text-align: left;
+ font-size: 11px;
+  }
+ .IDV2151 input[type="text"]  
+    { 
+  font-size: 95%;
+ width: 80% !important; 
+ font-family: Calibri !important;
+ padding: 0px !important;
+ margin: 0px !important;
+ border: none !important;
+ text-align: center !important;
+  }

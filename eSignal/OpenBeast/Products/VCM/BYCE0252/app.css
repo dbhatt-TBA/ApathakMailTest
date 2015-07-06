@@ -1,0 +1,114 @@
+/**
+ * All selectors must have .YOUR_APP_ID as a prefix. 
+ */
+
+/*.BYCE0252 table
+{
+    margin: 0;
+}
+
+.BYCE0252 tbody td
+{
+    text-align: left;
+}
+
+.BYCE0252 .last
+{
+}
+
+.BYCE0252 .last-change
+{
+    font-size: 80%;
+}
+
+.BYCE0252 .positive
+{
+    color: green;
+}
+
+.BYCE0252 .negative
+{
+    color: red;
+}
+
+.BYCE0252 .input-append
+{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.BYCE0252 p.hi
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+input[readonly]
+{
+    cursor: pointer !important;
+    background-color: #eeeeee;
+}*/
+
+
+
+/*.BYCE0252 
+{  margin: 0;
+padding: 5px; 
+ text-align: center; 
+  background-color: white; 
+  width: 300px;
+ }
+ .BYCE0252 tbody td { 
+ text-align: center !important; 
+  height: 25px !important;
+ vertical-align: middle;
+ } 
+ .BYCE0252 .last {
+ } 
+ .BYCE0252 .last-change {
+ font-size: 80%;
+ }
+ .BYCE0252.positive {
+ color: green;
+ }
+ .BYCE0252.negative {
+  color: red;
+ }
+ .BYCE0252 .input-append {
+ padding-bottom: 7px;
+ padding-top: 7px;
+  }
+ .BYCE0252 p.hi {
+ font-weight: bold;
+  font-size: 20px;
+  }
+ .BYCE0252 .MainHeader 
+  { 
+  background-color: #4E78A0;
+  } 
+ .BYCE0252 .header_fcolor {
+ color: white;
+ font-weight: bold;
+ text-align: left;
+ font-size: 11px;
+  }
+ .BYCE0252 input[type="text"]  
+    { 
+  font-size: 95%;
+ width: 80% !important; 
+ font-family: Calibri !important;
+ padding: 0px !important;
+ margin: 0px !important;
+ border: none !important;
+ text-align: center !important;
+  }*/
+
+div.scrollable {
+    width: 590px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+

@@ -1,0 +1,59 @@
+/**
+ * All selectors must have .YOUR_APP_ID as a prefix. 
+ */
+.savory_order_summary table
+{
+    margin: 0;
+}
+
+.savory_order_summary tbody td
+{
+    text-align: right;
+}
+
+.savory_order_summary .last
+{
+}
+
+.savory_order_summary .last-change
+{
+    font-size: 80%;
+}
+
+.savory_order_summary .positive
+{
+    color: green;
+}
+
+.savory_order_summary .negative
+{
+    color: red;
+}
+
+.savory_order_summary .input-append
+{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.savory_order_summary p.hi
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#savory_order_summary input[type="text"]
+{
+    height: 2.5em;
+    border:0 !important;
+}
+
+.itemname
+{
+    width: 22em !important;
+}
+
+.itemqty
+{
+    width: 5em !important;
+}

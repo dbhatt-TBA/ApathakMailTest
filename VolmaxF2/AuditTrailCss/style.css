@@ -1,0 +1,467 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-align:center;
+}
+
+.sessionbg
+{
+	background-image:url(images/session-bg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:61px;
+	width:750px;
+	padding-top:20px;
+}
+
+.bluesession
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#1d4b8a;
+	text-align:center;
+}
+
+.time
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#3d3d3e;
+	float:left;
+	padding-left:5px;
+	padding-bottom:8px;
+	line-height:20px;
+}
+
+
+.time a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#3d3d3e;
+	float:left;
+	text-decoration:none;
+}
+
+
+.time a:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#747474;
+	float:left;
+	text-decoration:underline;
+}
+
+.lablecss
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+}
+
+.table1
+{
+	background-color:#f6f7f8;
+	border:1px solid #000;
+	padding:10px;
+	text-align:center;
+}
+
+.table2
+{
+	background-color:#fff;
+	border:1px solid #000;
+	margin:10px;
+	text-align:center;
+}
+
+
+.table3
+{
+	background-color:#fff;
+	margin:10px;
+	text-align:center;
+}
+
+h2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	text-align:center;
+	line-height:30px;
+}
+
+h3
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#1d4b8a;
+	padding:3px;
+	text-align:center;
+}
+
+h4
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+	text-align:center;
+	line-height:12px;
+	margin:0px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+
+
+.table3 TD
+{
+	border:1px solid #ccc;
+}
+.tr1 
+{
+	background-color:#FFF2FF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+.tr2
+{
+	background-color:#FFE1F0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+.tr3 
+{
+	background-color:#EAF8FF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+.tr4
+{
+	background-color:#D8EEFE;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+.td-blue
+{
+	background-color:#09C;
+	height:10px;
+	width:50px;
+}
+
+
+.td-skyblue
+{
+	background-color:#9FF;
+	height:10px;
+	width:50px;
+}
+
+
+.td-red
+{
+	background-color:#F00;
+	height:10px;
+	width:50px;
+}
+
+
+.td-green
+{
+	background-color:#0F0;
+	height:10px;
+	width:50px;
+}
+
+
+.td-yellow
+{
+	background-color:#FF0;
+	height:10px;
+	width:50px;
+}
+
+.tdhover
+{
+	background-color:#CCC;
+	line-height:25px;
+}
+
+
+.table4
+{
+	background-color:#fff;
+	margin:10px;
+	text-align:center;
+	border:1px solid #999;
+}
+
+.table4 TD
+{
+	border:0px;
+}
+
+
+.tr5 
+{
+	background-color:#F0F0F0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+
+.tr6
+{
+	background-color:#FFE1D2;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:30px;
+}
+
+
+
+.table5
+{
+	background-color:#fff;
+	margin:10px;
+	text-align:center;
+	border:1px solid #ccc;
+}
+.table5 TD
+{
+	border:1px solid #ccc;
+}
+
+.toolbar
+{
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#1d4b8a;
+	padding:0px;
+	text-align:left;
+}
+a
+{
+    cursor:pointer;   
+    color:Blue; 
+}
+
+a:hover
+{
+    color:Gray;    
+}
+
+a:visited
+{
+    color:Black;    
+}
+
+.trAvg
+{
+	background-color:#b1fdf3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+    color:Black;
+	line-height:25px;
+}
+
+.time span
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#3d3d3e;
+	float:left;
+	text-decoration:none;
+}
+
+
+.time span:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:Blue;
+	float:left;
+	text-decoration:underline;
+	
+}
+
+.time span:selected
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:Black;
+	float:left;
+	text-decoration:underline;
+	
+}
+
+/*SYSLOG CSS*/
+
+.tr7 
+{
+	background-color:#FFFFEA;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+
+.tr8
+{
+	background-color:#FFEAEA;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+
+.table6
+{
+	background-color:#fff;
+	margin:10px;
+	text-align:center;
+}
+
+.table6 TD
+{
+	border:0px;
+}
+
+.tr9 
+{
+	background-color:#EED;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+
+.tr10
+{
+	background-color:#F9F2FF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:25px;
+}
+
+/*time picker css*/
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+/*time picker css*/
+
+/* Syslog and W3C log Page CSS*/
+
+.bluesmall
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#00F;
+	padding-right:15px;
+	line-height:15px;
+}
+
+.sys1 
+{
+	background-color:#EAF4F4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:20px;
+}
+
+
+.sys2
+{
+	background-color:#FFFFD9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:20px;
+}
+
+.w3c1
+{
+	background-color:#e8fff4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:20px;
+}
+
+
+.w3c2
+{
+	background-color:#f1f1ff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	line-height:20px;
+}
+
+/* Syslog and W3C log Page CSS*/

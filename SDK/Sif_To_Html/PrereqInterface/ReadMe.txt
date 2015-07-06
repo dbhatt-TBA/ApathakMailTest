@@ -1,0 +1,1 @@
+Please install "vcredist_x86.exe" if there will be any exception occur relevent MFC100.dll missing

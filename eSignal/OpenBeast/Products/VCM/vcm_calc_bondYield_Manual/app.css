@@ -1,0 +1,50 @@
+/**
+ * All selectors must have .YOUR_APP_ID as a prefix. 
+ */
+/*.vcm_calc_bondYield_Manual table
+{
+    margin: 0;
+}
+
+.vcm_calc_bondYield_Manual tbody td
+{
+    text-align: left;
+}
+
+.vcm_calc_bondYield_Manual .last
+{
+}
+
+.vcm_calc_bondYield_Manual .last-change
+{
+    font-size: 80%;
+}
+
+.vcm_calc_bondYield_Manual .positive
+{
+    color: green;
+}
+
+.vcm_calc_bondYield_Manual .negative
+{
+    color: red;
+}
+
+.vcm_calc_bondYield_Manual .input-append
+{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.vcm_calc_bondYield_Manual p.hi
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+input[readonly]
+{
+    cursor: pointer !important;
+    background-color: #eeeeee;
+}*/

@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Login.master.cs" Inherits="Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Beast Apps, LLC</title>
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico" />
+    <link href="bootstrap/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function VolmaxLauncherDownload() {
+
+            var varIsDotNetFrameWorkInstalled = document.getElementById("ctl00_hfIsDotNetFrameWorkInstalled").value;
+            var varExeinfo = '';
+
+            if (varIsDotNetFrameWorkInstalled != 'true') {
+                window.open("https://www.vcmpartners.com/WWSApp/VolmaxApp/VolmaxLauncher.exe");
+                varExeinfo = 'Full version';
+            }
+            else {
+                window.open("https://www.vcmpartners.com/WWSApp/VolmaxApp/VolmaxInstall.msi");
+                varExeinfo = 'Small version';
+            }
+
+            window.open('VolmaxLauncher.aspx', '_self');
+            ISwapService.VolmaxLauncherDownloadMail('VolmaxLauncherDownload', '', varExeinfo, onSuccess, onFailed);
+
+        }
+
+        function onSuccess() {
+        }
+
+        function onFailed() {
+        }
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server" defaultbutton="btnDefault">
+    <asp:ScriptManager ID="scriptMngLogin" runat="server" AsyncPostBackTimeout="180"
+        EnablePartialRendering="true">
+        <Services>
+            <asp:ServiceReference Path="~/Service/ISwapService.asmx" />
+        </Services>
+    </asp:ScriptManager>
+    <table width="1150" align="center" cellpadding="0" cellspacing="0" class="whitebg">
+        <tr>
+            <td align="center" valign="middle" class="headborder">
+                <table width="99%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="17%" align="left" valign="middle">
+                            <img src="images/logo.gif" width="170" height="75" border="0" />
+                        </td>
+                        <td align="left" valign="bottom">
+                            <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="left" valign="middle">
+                                       
+                                    </td>
+                                    <td align="right" valign="middle" style="padding: 10px 15px 0px 0px;">
+                                       
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr valign="top" align="center">
+            <td height="500" valign="middle" align="center">
+                <asp:UpdatePanel ID="upPnl" runat="server">
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:Button ID="btnDefault" runat='server' Style="display: none;" />
+            </td>
+        </tr>
+        <tr>
+            <td height="70" align="center" valign="middle" class="btmbg">
+                <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="left" valign="middle">
+                            <img src="images/verisign-logo.jpg" width="70" height="51" hspace="10" />
+                        </td>
+                        <td align="right" valign="middle">
+                            <div class="copyrighttxt" style="margin-top: 15px">
+
+                                <script type="text/javascript">
+                                    copyright = new Date();
+                                    update = copyright.getFullYear();
+                                    document.write("Copyright © 2008-" + update + " The Beast Apps All rights reserved.");                   
+                                </script>
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <asp:HiddenField ID="hfIsDotNetFrameWorkInstalled" runat="server" />
+    </form>
+</body>
+</html>

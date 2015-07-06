@@ -1,0 +1,41 @@
+fieldset.search {
+	border: none;
+	width: 243px;
+	margin: 0 auto;
+}
+.search input, .search button {
+	border: none;
+	float: right;
+}
+.search input.box {
+	color: Black;
+	font-weight:bold;
+	font-size: 12px;
+	font-family:Verdana;
+	width: 175px;
+	height: 33px;
+	background:url("images/search_bg.gif") no-repeat;
+	vertical-align:middle;
+	line-height: 33px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.search input.box:focus {
+	background: url("images/search_bg1.gif") no-repeat;
+	height:33px;
+	width:175px;
+	background-position:left center;
+	outline: none;
+	padding-right:10px;
+	padding-left:10px;
+}
+.search button.btn {
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: #fbc900 url("images/search_bgnew.gif") no-repeat top right;
+}
+.search button.btn:hover {
+	background: #fbc900 url("images/search_bgnew.gif") no-repeat bottom right;
+}

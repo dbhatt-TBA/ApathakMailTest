@@ -1,0 +1,30 @@
+/**
+ * All selectors must have .YOUR_APP_ID as a prefix. 
+ */
+ /*.vcm_calc_CdsCalculator table {
+	margin:0;
+}
+.vcm_calc_CdsCalculator tbody td {
+	text-align: right;
+}
+.vcm_calc_CdsCalculator .last {
+}
+.vcm_calc_CdsCalculator .last-change {
+	font-size:80%;
+}
+.vcm_calc_CdsCalculator .positive {
+	color: green;
+}
+.vcm_calc_CdsCalculator .negative {
+	color: red;
+}
+
+.vcm_calc_CdsCalculator .input-append {
+	padding-bottom:7px;
+	padding-top:7px;
+}
+
+.vcm_calc_CdsCalculator p.hi {
+	font-weight: bold;
+	font-size: 20px;
+}*/
