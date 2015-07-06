@@ -2,3 +2,5 @@
 
 
 document.getElementById('abcd');
+
+document.getElementById('abcd');
