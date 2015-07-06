@@ -8,9 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <%--TEST COMMENTS--%>
-    </div>
+        <div>
+            <%--TEST COMMENTS--%>
+
+            <%--Comment for TestFeature2--%>
+        </div>
     </form>
 </body>
 </html>
