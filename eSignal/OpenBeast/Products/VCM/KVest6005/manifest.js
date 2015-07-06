@@ -1,0 +1,14 @@
+F2_jsonpCallback_KVest6005({ 
+  "scripts": [ 
+ "Products/VCM/KVest6005/appclass.js"
+ ],
+  "styles": [
+ "Products/VCM/KVest6005/app.css"
+  ],
+ "apps": [{
+ "data": {},
+ "html": ['<div><table class="tblClass hdrBorder table table-condensed" id="KVest6005"><thead></thead><tbody><tr><td colspan="8"><div class="productNameHdr pull-left"><div  style="float: left; margin-left: 10px;"><strong>K-Vest</strong></div></div></td></tr><tr><td colspan="8"><div class="ServerName" style="text-align: left !important;"></div></td></tr><tr><td><input id="KVest6005_99999992" type="text" /></td></tr><tr><td><input id="KVest6005_17" type="text" /></td><td><input id="KVest6005_18" type="button" value="Start" /></td><td><input id="KVest6005_20" type="text" /></td></tr><tr><td>Timestamp</td><td></td></tr><tr><td>Sensors</td><td></td></tr><tr><td></td><td>Yaw/X</td><td></td><td>Pitch/Y</td><td></td><td>Roll/Z</td><td></td></tr><tr><td><input id="KVest6005_101" type="text" /></td><td><input id="KVest6005_102" type="text" /></td><td><input id="KVest6005_103" type="text" /></td></tr><tr><td>Row Shoulder</td><td></td></tr><tr><td>Raw Hip</td><td></td><td><input id="KVest6005_104" type="text" /></td><td><input id="KVest6005_105" type="text" /></td><td><input id="KVest6005_106" type="text" /></td></tr><tr><td><input id="KVest6005_107" type="text" /></td><td><input id="KVest6005_108" type="text" /></td><td><input id="KVest6005_109" type="text" /></td></tr><tr><td>Raw Hand</td><td></td></tr><tr><td><input id="KVest6005_110" type="text" /></td><td><input id="KVest6005_111" type="text" /></td><td><input id="KVest6005_112" type="text" /></td></tr><tr><td>Shoulder Acceleration</td><td></td></tr><tr><td><input id="KVest6005_113" type="text" /></td><td><input id="KVest6005_114" type="text" /></td><td><input id="KVest6005_115" type="text" /></td></tr><tr><td>Hip Acceleration</td><td></td></tr><tr><td><input id="KVest6005_116" type="text" /></td><td><input id="KVest6005_117" type="text" /></td><td><input id="KVest6005_118" type="text" /></td></tr><tr><td>Hand Acceleration</td><td></td></tr><tr><td><input id="KVest6005_119" type="text" /></td><td><input id="KVest6005_120" type="text" /></td><td><input id="KVest6005_121" type="text" /></td></tr><tr><td>Shoulder Rotational Velocity</td><td></td></tr><tr><td><input id="KVest6005_122" type="text" /></td><td><input id="KVest6005_123" type="text" /></td><td><input id="KVest6005_124" type="text" /></td></tr><tr><td>Hip Rotational Velocity</td><td></td></tr><tr><td><input id="KVest6005_125" type="text" /></td><td><input id="KVest6005_126" type="text" /></td><td><input id="KVest6005_127" type="text" /></td></tr><tr><td>Hand Rotational Velocity</td><td></td></tr></tbody></table></div>'].join("")
+ }]
+})
+  
+ 

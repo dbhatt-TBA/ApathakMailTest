@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#000031;
+}
+
+.volfont
+{
+	font-family:arial;
+	font-size:16px;
+	color:#9595a1;
+	font-weight:bold;
+	line-height:30px;
+}
+.brlfttop
+{
+	border-left:2px solid #ffffff;
+	border-top:2px solid #ffffff;
+	border-right:1px solid #828282;
+	border-bottom:1px solid #828282;
+	font-family:arial 14px #eeff01;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brtop
+{
+	border-top:2px solid #ffffff;
+	border-right:1px solid #828282;
+	border-left:1px solid #828282;
+	border-bottom:1px solid #828282;
+	font-family:arial 14px #eeff01;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brbtm
+{
+	
+	border-bottom:2px solid #ffffff;
+	border-right:1px solid #828282;
+	border-left:1px solid #828282;
+	border-top:1px solid #828282;
+	font-family:arial 14px #eeff01;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brrhttp
+{
+	
+	border-top:2px solid #ffffff;
+	border-right:2px solid #ffffff;
+	border-bottom:1px solid #828282;
+	border-left:1px solid #828282;
+	font-family:arial 14px #eeff01;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brrht
+{
+	
+	border-right:2px solid #ffffff;
+	font-family:arial 14px #eeff01;
+	border-top:1px solid #828282;
+	border-left:1px solid #828282;
+	border-bottom:1px solid #828282;
+	line-height:25px;
+	padding-right:5px;
+}
+
+
+.brlft
+{
+	
+	border-left:2px solid #ffffff;
+	border-right:1px solid #828282;
+	border-top:1px solid #828282;
+	border-bottom:1px solid #828282;
+	font-family:arial 14px #eeff01;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brlftbtm
+{
+	
+	border-left:2px solid #ffffff;
+	border-bottom:2px solid #ffffff;
+	font-family:arial 14px #eeff01;
+	border-top:1px solid #828282;
+	border-right:1px solid #828282;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.brrhtbtm
+{
+	
+	border-right:2px solid #ffffff;
+	border-bottom:2px solid #ffffff;
+	border-top:1px solid #828282;
+	border-left:1px solid #828282;
+	padding-right:5px;
+
+}
+
+.commintd
+{
+	border-right:1px solid #828282;
+	border-left:1px solid #828282;
+	border-bottom:1px solid #828282;
+	border-top:1px solid #828282;
+	line-height:25px;
+	padding-right:5px;
+}
+
+
+.bgcolor
+{
+    font-family:arial;
+	font-size:14px;
+	color:#eeff01;
+	padding-right:3px;
+	cursor:pointer;
+	
+}
+
+ .bgcolor-opp
+{
+	background-color:#eeff01;
+	font-family:arial;
+	font-size:16px;
+	color:#282828;
+	padding-right:5px;
+	
+}
+
+.greenfont
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-left:1px solid #00ff00;
+	border-right:1px solid #00ff00;
+	border-top:1px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+
+.greenfont1
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-left:2px solid #00ff00;
+	border-right:1px solid #00ff00;
+	border-top:1px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+
+.greenfont2
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-right:2px solid #00ff00;
+	border-left:1px solid #00ff00;
+	border-top:1px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+	
+.greenfont3
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-bottom:1px solid #00ff00;
+	border-left:1px solid #00ff00;
+	border-top:2px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+
+.greenfont4
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-bottom:2px solid #00ff00;
+	border-left:1px solid #00ff00;
+	border-top:1px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+
+.greenfont5
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#010000;
+	border-bottom:1px solid #00ff00;
+	border-left:1px solid #00ff00;
+	border-top:1px solid #00ff00;
+	width:70px;
+	text-align:center;
+}
+
+.ccy
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#c2c3d8;
+	text-align:center;
+	font-weight:bold;
+}
+
+.graygreen
+{
+	font-family:arial;
+	font-size:14px;	
+	color:#00ff00;
+	font-weight:bold;
+	background-color:#282828;
+	border:1px solid #828282;
+	text-align:center;
+}	
+
+.btn
+{
+	background-image:url(images/buttonbg.jpg);
+	background-repeat:repeat-x;
+	height:20px;
+	border::1px solid #b3b3b3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#333;
+	text-align:center;
+}
+
+.commintdborder
+{
+	border:1px solid #D70000 ;
+}

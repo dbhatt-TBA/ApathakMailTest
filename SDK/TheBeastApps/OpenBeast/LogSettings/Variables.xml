@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sessions>
+  <ServerType>BeastAppsCore_SDK</ServerType>
+  <!--<SessionValue>UserId</SessionValue>-->
+  <!--<SessionValue>SessionID</SessionValue>-->
+  <!--<SessionValue>CustomerId</SessionValue>-->
+  <PrefixString> weblog - </PrefixString>
+</Sessions>
+

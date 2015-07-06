@@ -1,0 +1,190 @@
+﻿/*----- Import CSS ---- */
+/*@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
+@import url("responsive.css");
+@import url("magnific-popup.css");*/
+/*----- Imported CSS End ---- */
+.bd_set {
+width:22px;
+height:22px;
+position: absolute;
+top: 58px;
+}
+#r_img {
+left:170px;
+}
+#t_img {
+left:199px;
+}
+#b_img {
+left:225px;
+}
+#cpDiv {
+width:212px;
+}
+#numberTableId {
+width:100px;
+}
+#numberTableSubId {
+    width:100px;
+}
+#font_color {
+width:160px;
+}
+#fFamily {
+width:125px;
+}
+#fontfamilyId {
+width:110px;
+}
+#fStyle {
+width:90px;
+}
+#fontstyleId {
+width:75px;
+}
+#fSize {
+width:50px;
+}
+#sizeid {
+width:37px;
+}
+#nocolorId {
+width: 211px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+#sampledivborderId {
+    display: block;
+height: 195px;
+width: 50px;
+border: 1px lightgray solid;
+margin-left: 5px;
+margin-right: 5px;
+background-color: #ffffff;
+
+}
+
+#sampledivinnerborderId {
+    display: block;
+height: 180px;
+width: 35px;
+margin: 5px;
+}
+#sampledivbackId {
+display: block;
+height: 85px;
+width: 50px;
+border: 1px lightgray solid;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+
+
+#sampledivinnerbackId {
+display: block;
+height: 75px;
+width: 40px;
+margin: 5px;
+}
+
+#sampledivfontId {
+display: block;
+height: 85px;
+width: 50px;
+border: 1px lightgray solid;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+#f_button {
+width:100px;
+}
+#b_button {
+    margin-left:10px;
+width:100px;
+}
+#hdivalign {
+width:160px;
+margin-bottom:5px;
+}
+#vdivalign {
+width:160px;
+
+}
+.b_set {
+height:22px;
+width:21px;
+padding-left:3px;
+}
+
+#sampledivinnerfontId {
+display: block;
+height: 75px;
+width: 40px;
+margin: 5px;
+}
+
+#f_tab{
+display: block;
+height: 125px;
+width: 265px;
+}
+#u_line {
+margin-bottom: 10px;
+margin-top: 10px;
+}
+/*pop up*/
+
+.popup .h3{background: none repeat scroll 0 0 #111921;
+    color: #fff;
+    margin:3px 0 5px;
+    padding:5px 6px;
+	font-size:13px;
+}
+
+.popup .data-table{padding:0px;}
+.popup .data-table .table tr td{border-top: none;}
+
+.tab-content{padding:0 10px;}
+.normal-btn{background:#75a537; color:#FFF; border:0px; padding:10px; display:inline-block;}
+.normal-btn:hover{color:#FFF; text-decoration:none;}
+.tabbable-panel p{padding:0px;}
+/*.tab-content select{width:130px;}*/
+
+
+.border{ border: 1px solid #e1e1e1 !important; display: inline-block; height: 73px; vertical-align: top; width: 100%; padding:5px;}
+
+.borderhl{ border: 1px solid #e1e1e1 !important; display: inline-block; height:122px; vertical-align: top; width: 100%; padding:5px;}
+.tab-content input[type="checkbox"]{margin:-2px 3px 0 0; vertical-align:middle;}
+.insidetable-border{border:1px solid #e1e1e1;}
+.insidetable-border a{cursor:pointer; color:#000;}
+.insidetable-border a:hover{text-decoration:none;}
+
+#tab_default_5 .insidetable-border{border:1px solid #e1e1e1;}
+.tab-color-button{font-size:12px; vertical-align:top; margin:0 1px;}
+#tab_default_5 .insidetable-border1{border:1px solid #e1e1e1; height:30px;}
+
+.tablelink a img{cursor:pointer;}
+.tablelink a{cursor:pointer; color:#000;}
+.tablelink a:hover{text-decoration:none; cursor:pointer;}
+
+.bottom-ptch{background:#ccc; padding:5px;}
+
+.ui-dialog .cleardiv {
+    clear: both;
+    min-height: 10px;
+}
+
+.ui-widget-content {
+	border: 1px solid #888;
+	background: #eee;
+	color: #333;
+    z-index :1000!important;
+}
+
+.spacespan{
+	margin-left: 8px;
+
+}

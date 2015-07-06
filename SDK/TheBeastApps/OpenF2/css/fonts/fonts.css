@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'CalibriRegular';
+    src: url('calibri.eot');
+    src: url('calibri.eot') format('embedded-opentype'),
+         url('calibri.woff') format('woff'),
+         url('calibri.ttf') format('truetype'),
+         url('calibri.svg#CalibriRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CorbelRegular';
+    src: url('corbel.eot');
+    src: url('corbel.eot') format('embedded-opentype'),
+         url('corbel.woff') format('woff'),
+         url('corbel.ttf') format('truetype'),
+         url('corbel.svg#CorbelRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'futura_bk_btbook';
+    src: url('futuran-webfont.eot');
+    src: url('futuran-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futuran-webfont.woff') format('woff'),
+         url('futuran-webfont.ttf') format('truetype'),
+         url('futuran-webfont.svg#futura_bk_btbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBookBook';
+    src: url('futura-book.eot');
+    src: url('futura-book.eot') format('embedded-opentype'),
+         url('futura-book.woff') format('woff'),
+         url('futura-book.ttf') format('truetype'),
+         url('futura-book.svg#FuturaBookBook') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpro-regular_0-webfont.eot');
+    src: url('myriadpro-regular_0-webfont.eot') format('embedded-opentype'),
+         url('myriadpro-regular_0-webfont.woff') format('woff'),
+         url('myriadpro-regular_0-webfont.ttf') format('truetype'),
+         url('myriadpro-regular_0-webfont.svg#Myriadprpcond') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProBoldCond';
+    src: url('myriadpro-boldcond_0-webfont.eot');
+    src: url('myriadpro-boldcond_0-webfont.eot') format('embedded-opentype'),
+         url('myriadpro-boldcond_0-webfont.woff') format('woff'),
+         url('myriadpro-boldcond_0-webfont.ttf') format('truetype'),
+         url('myriadpro-boldcond_0-webfont.svg#MyriadProBoldCond') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProCond';
+    src: url('myriadpro-cond_0-webfont.eot');
+    src: url('myriadpro-cond_0-webfont.eot') format('embedded-opentype'),
+         url('myriadpro-cond_0-webfont.woff') format('woff'),
+         url('myriadpro-cond_0-webfont.ttf') format('truetype'),
+         url('myriadpro-cond_0-webfont.svg#MyriadProCond') format('svg');
+}

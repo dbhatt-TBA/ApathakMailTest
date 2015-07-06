@@ -1,0 +1,51 @@
+.RDV0060 
+{  margin: 0;
+padding: 5px; 
+ text-align: center; 
+  background-color: white; 
+  width: 300px;
+ }
+ .RDV0060 tbody td { 
+ text-align: center !important; 
+  height: 25px !important;
+ vertical-align: middle;
+ } 
+ .RDV0060 .last {
+ } 
+ .RDV0060 .last-change {
+ font-size: 80%;
+ }
+ .RDV0060.positive {
+ color: green;
+ }
+ .RDV0060.negative {
+  color: red;
+ }
+ .RDV0060 .input-append {
+ padding-bottom: 7px;
+ padding-top: 7px;
+  }
+ .RDV0060 p.hi {
+ font-weight: bold;
+  font-size: 20px;
+  }
+ .RDV0060 .MainHeader 
+  { 
+  background-color: #4E78A0;
+  } 
+ .RDV0060 .header_fcolor {
+ color: white;
+ font-weight: bold;
+ text-align: left;
+ font-size: 11px;
+  }
+ .RDV0060 input[type="text"]  
+    { 
+  font-size: 95%;
+ width: 80% !important; 
+ font-family: Calibri !important;
+ padding: 0px !important;
+ margin: 0px !important;
+ border: none !important;
+ text-align: center !important;
+  }
