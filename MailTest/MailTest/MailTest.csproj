@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LoginPage.aspx" />
     <Content Include="LogSettings\Variables.xml" />
     <Content Include="NewPage.aspx" />
     <Content Include="SendMail.aspx" />
@@ -148,6 +149,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\VCM_Mail.cs" />
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="NewPage.aspx.cs">
       <DependentUpon>NewPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
