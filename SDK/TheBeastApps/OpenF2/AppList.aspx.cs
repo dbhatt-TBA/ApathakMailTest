@@ -11,7 +11,7 @@ namespace OpenF2
     {
         public DAL objadmin = null;
         public Cadmin objadminbase = null;
-        // dummy change
+        // 
         //private SessionInfo _session;
         //public SessionInfo CurrentSession
         //{
