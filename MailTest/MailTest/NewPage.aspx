@@ -8,11 +8,17 @@
 </head>
 <body>
     <form id="form1" runat="server">
+<<<<<<< HEAD
         <div>
             <%--TEST COMMENTS--%>
 
             <%--Comment for TestFeature2--%>
         </div>
+=======
+    <div>
+    
+    </div>
+>>>>>>> parent of 2504f2e... Committing TestFeature1
     </form>
 </body>
 </html>
