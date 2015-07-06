@@ -71,6 +71,7 @@
     <Content Include="NewPage.aspx" />
     <Content Include="PriceWidget.js" />
     <Content Include="SendMail.aspx" />
+    <Content Include="TermWidget.js" />
     <Content Include="tinymce\changelog.txt" />
     <Content Include="tinymce\js\tinymce\license.txt" />
     <Content Include="tinymce\js\tinymce\plugins\advlist\plugin.min.js" />
