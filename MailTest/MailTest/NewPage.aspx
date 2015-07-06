@@ -12,6 +12,8 @@
             <%--TEST COMMENTS--%>
 
             <%--Comment for TestFeature2--%>
+
+            <%--Comment for TestFeature3--%>
         </div>
     </form>
 </body>
