@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LoginPage.aspx" />
+    <Content Include="LogOut.aspx" />
     <Content Include="LogSettings\Variables.xml" />
     <Content Include="NewPage.aspx" />
     <Content Include="SendMail.aspx" />
@@ -155,6 +156,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
     </Compile>
     <Compile Include="NewPage.aspx.cs">
       <DependentUpon>NewPage.aspx</DependentUpon>
