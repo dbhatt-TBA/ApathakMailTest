@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ForkTest.js" />
     <Content Include="LoginPage.aspx" />
     <Content Include="LogOut.aspx" />
     <Content Include="LogSettings\Variables.xml" />
